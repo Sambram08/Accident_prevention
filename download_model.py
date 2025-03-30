@@ -13,7 +13,7 @@ output = os.path.join(model_dir, "xgboost_model.pkl")
 # Download the model if it doesn't exist
 if not os.path.exists(output):
     print("Downloading model...")
-    gdown.download(f"https://drive.google.com/uc?id={file_id}", output, quiet=False)
+    gdown.download("https://drive.google.com/file/d/1-YX7gmbz4Qnfm-FdarTAe6l-_vVxKhpE", output, quiet=False)
     print("Model downloaded successfully!")
 else:
     print("Model already exists.")#https://drive.google.com/file/dyEekxHzR0Nyod9Qgn4DGA6tQXfKfGaks/1/view?usp=sharing
