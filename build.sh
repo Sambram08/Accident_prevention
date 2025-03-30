@@ -21,7 +21,7 @@ set -o errexit
 # Install dependencies
 pip install --upgrade pip
 pip install -r requirements.txt
-
+gdown https://drive.google.com/uc?id=dyEekxHzR0Nyod9Qgn4DGA6tQXfKfGaks -O accidentprediction/model/xgboost_model.pkl
 # Apply Django migrations
 python manage.py migrate
 
