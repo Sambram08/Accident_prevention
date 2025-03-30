@@ -13,7 +13,7 @@ mkdir -p accidentprediction/model/
 # curl -L "YOUR_DIRECT_DOWNLOAD_LINK" -o accidentprediction/model/xgboost_model.pkl
 
 # Option 2: Using gdown with correct file ID
-gdown https://drive.google.com/uc?id=dyEekxHzR0Nyod9Qgn4DGA6tQXfKfGaks -O accidentprediction/model/xgboost_model.pkl --no-cookies
+gdown https://drive.google.com/file/d/1-YX7gmbz4Qnfm-FdarTAe6l-_vVxKhpE -O accidentprediction/model/xgboost_model.pkl --no-cookies
 
 # Apply migrations
 python manage.py migrate
